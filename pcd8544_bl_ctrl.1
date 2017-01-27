@@ -1,0 +1,32 @@
+.\" This program is free software; you can redistribute it and/or modify it
+.\" under the terms of the GNU Lesser General Public License as published by
+.\" the Free Software Foundation; either version 2.1 of the License, or
+.\" (at your option) any later version.
+.\"
+.\" This program is distributed in the hope that it will be useful, but
+.\" WITHOUT ANY WARRANTY; without even the implied warranty of
+.\" MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+.\" Lesser General Public License for more details.
+.\"
+.\" Copyright (C) 2017 Malcolm Lewis <malcolmlewis@opensuse.org>
+.TH pcd8544_bl_ctrl 1 "2017-25-01" pcd8544_bl_ctrl "pcd8544_bl_ctrl man page"
+.SH NAME
+.B pcd8544_bl_ctrl \- Command line tool to control the Sunfounder PCD8544 Backlight.
+.SH "SYNOPSIS"
+.B pcd8544_bl_ctrl\fR [-ofb]
+.PP
+.SH DESCRIPTION
+.B pcd8544_bl_ctrl\fR is a simple c program to pass options to the Raspberry Pi 3
+BCM_GPIO 4, wiringPi 7 to turn on, off or blink the PCD8544 backlight.
+.PP
+.SH EXAMPLES
+pcd8544_bl_ctrl -o - Turn on backlight.
+.PP
+pcd8544_bl_ctrl -f - Turn off backlight.
+.PP
+pcd8544_bl_ctrl -b - Turn backlight flash/blink 5 times.
+.PP
+.SH Manufacturer URL
+https://www.sunfounder.com/wiki/index.php?title=Raspberry_Pi_5110_Mini_LCD_84*48_PCD8544_Usage
+.SH AUTHOR
+Malcolm J Lewis <malcolmlewis@opensuse.org>
