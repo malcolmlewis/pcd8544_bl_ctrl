@@ -12,10 +12,17 @@ INSTALLATION
 Ensure that gcc, make and wiringPi-devel packages are installed.
 
 Unpack the source;
+
 - tar xvf pcd8544_bl_ctrl-{version}.tar.gz
+
+Change to the source location;
+
 - cd pcd8544_bl_ctrl-{version}
+
 - make
-{Switch to root user and cd to build directory}
+
+Switch to root user and cd to build directory;
+
 - make install
 
 Prebuilt rpms are available on the openSUSE Build Service at;
@@ -23,7 +30,7 @@ https://software.opensuse.org/package/pcd8544_bl_ctrl
 
 USAGE
 ---------------------
-You need to be root user...
+You need to be root user to run...
 
 pcd8544_bl_ctrl -o - Turn on backlight.
 
