@@ -1,4 +1,3 @@
-# pcd8544_bl_ctrl
 pcd8544_bl_ctrl
 =====================
 Command line tool to control the Sunfounder PCD8544 Backlight.
@@ -13,11 +12,11 @@ INSTALLATION
 Ensure that gcc, make and wiringPi-devel packages are installed.
 
 Unpack the source;
-tar xvf pcd8544_bl_ctrl-{version}.tar.gz
-cd pcd8544_bl_ctrl-{version}
-make
+- tar xvf pcd8544_bl_ctrl-{version}.tar.gz
+- cd pcd8544_bl_ctrl-{version}
+- make
 {Switch to root user and cd to build directory}
-make install
+- make install
 
 Prebuilt rpms are available on the openSUSE Build Service at;
 https://software.opensuse.org/package/pcd8544_bl_ctrl
