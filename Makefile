@@ -27,7 +27,7 @@ CC	= gcc
 INCLUDE	= -I.
 CFLAGS	= -fmessage-length=0 -grecord-gcc-switches -fstack-protector -Wall -funwind-tables -fasynchronous-unwind-tables
 LDFLAGS	= -L$(LIBDIR)
-LIBS	= -lwiringPi -lm -lpthread -lrt
+LIBS	= -lwiringPi -lm -lpthread -lrt -lcrypt
 
 SRC	= pcd8544_bl_ctrl.c
 
